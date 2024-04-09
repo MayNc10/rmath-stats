@@ -1,0 +1,352 @@
+startup	time=1712694459529085059
+experiment	selected=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/cell.rs:0	speedup=1.00	duration=496639365	selected-samples=5
+latency-point	name=loop	arrivals=0	departures=0	difference=94442076108342
+experiment	selected=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/panic/panic_info.rs:49	speedup=0.55	duration=994364043	selected-samples=23
+latency-point	name=loop	arrivals=0	departures=0	difference=94442076108342
+experiment	selected=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/sleep/mod.rs:253	speedup=0.40	duration=1839219937	selected-samples=555
+latency-point	name=loop	arrivals=4	departures=4	difference=94442076108342
+experiment	selected=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/sleep/mod.rs:253	speedup=0.60	duration=3583498259	selected-samples=748
+latency-point	name=loop	arrivals=5	departures=6	difference=94442076108341
+runtime	time=7783783943
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crossbeam-deque-0.8.5/src/deque.rs:64	count=215
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crossbeam-deque-0.8.5/src/deque.rs:407	count=1
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-1.10.0/src/iter/flatten.rs:120	count=3
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-1.10.0/src/iter/from_par_iter.rs:20	count=1
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-1.10.0/src/iter/from_par_iter.rs:21	count=1
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-1.10.0/src/iter/plumbing/mod.rs:396	count=1
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-1.10.0/src/slice/mergesort.rs:0	count=165
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-1.10.0/src/slice/mergesort.rs:493	count=229
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/job.rs:0	count=578
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/job.rs:64	count=21
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/job.rs:90	count=15
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/job.rs:120	count=1
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/job.rs:229	count=2
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/job.rs:230	count=657
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/job.rs:231	count=1
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/join/mod.rs:0	count=1
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/join/mod.rs:132	count=977
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/join/mod.rs:136	count=217
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/join/mod.rs:142	count=202
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/join/mod.rs:159	count=1813
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/join/mod.rs:174	count=16
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/latch.rs:200	count=1
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/latch.rs:452	count=1
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/registry.rs:526	count=2
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/registry.rs:527	count=1
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/registry.rs:725	count=352
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/registry.rs:744	count=382
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/registry.rs:751	count=295
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/registry.rs:752	count=50
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/registry.rs:769	count=1
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/sleep/counters.rs:43	count=960
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/sleep/mod.rs:0	count=6
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/sleep/mod.rs:253	count=1382
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/sleep/mod.rs:266	count=1
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/alloc/src/alloc.rs:0	count=1
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/alloc/src/alloc.rs:383	count=1
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/alloc/src/boxed.rs:0	count=1
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/alloc/src/collections/btree/node.rs:1820	count=1
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/alloc/src/raw_vec.rs:204	count=1
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/alloc/src/vec/mod.rs:423	count=5
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/alloc/src/vec/mod.rs:1421	count=1
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/alloc/src/vec/mod.rs:2142	count=534
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/cell.rs:0	count=521
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/cell.rs:512	count=1
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/cmp.rs:0	count=14
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/fmt/mod.rs:335	count=7
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/intrinsics.rs:2708	count=2886
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/intrinsics.rs:2800	count=81
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/iter/range.rs:0	count=2
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/mem/maybe_uninit.rs:494	count=5
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/num/mod.rs:455	count=21
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/num/mod.rs:1269	count=1044
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/option.rs:0	count=1
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/option.rs:931	count=1
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/panic/panic_info.rs:49	count=928
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/ptr/const_ptr.rs:1777	count=518
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/ptr/mod.rs:507	count=4
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/ptr/mod.rs:1215	count=1
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/ptr/mod.rs:1658	count=1822
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/ptr/mut_ptr.rs:1045	count=93
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/ptr/non_null.rs:399	count=321
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/slice/index.rs:403	count=4
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/slice/index.rs:405	count=4
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/slice/mod.rs:887	count=544
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/slice/mod.rs:888	count=468
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/slice/mod.rs:985	count=1
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/slice/sort.rs:0	count=7344
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/slice/sort.rs:221	count=465
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/slice/sort.rs:233	count=17
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/slice/sort.rs:235	count=957
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/slice/sort.rs:238	count=1428
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/slice/sort.rs:244	count=526
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/sync/atomic.rs:3273	count=322
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/sync/atomic.rs:3274	count=159
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/sync/atomic.rs:3289	count=1
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/sync/atomic.rs:3290	count=15
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/sync/atomic.rs:3372	count=21
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/tuple.rs:220	count=48
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/std/src/io/buffered/bufwriter.rs:406	count=6
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/std/src/io/mod.rs:1683	count=1
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/std/src/sys/unix/futex.rs:104	count=30
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/std/src/sys/unix/stack_overflow.rs:114	count=337
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/std/src/thread/local.rs:284	count=1
+startup	time=1712694553964201229
+experiment	selected=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/num/mod.rs:1269	speedup=0.00	duration=500099832	selected-samples=102
+latency-point	name=loop	arrivals=0	departures=0	difference=94365832590902
+experiment	selected=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/registry.rs:725	speedup=0.20	duration=992178906	selected-samples=48
+latency-point	name=loop	arrivals=0	departures=0	difference=94365832590902
+experiment	selected=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/join/mod.rs:142	speedup=0.00	duration=1992939494	selected-samples=75
+latency-point	name=loop	arrivals=0	departures=0	difference=94365832590902
+experiment	selected=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/cell.rs:0	speedup=0.60	duration=3956298293	selected-samples=134
+latency-point	name=loop	arrivals=0	departures=0	difference=94365832590902
+experiment	selected=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/sleep/mod.rs:253	speedup=0.00	duration=7809009822	selected-samples=1554
+latency-point	name=loop	arrivals=1	departures=1	difference=94365832590902
+experiment	selected=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/fmt/mod.rs:335	speedup=0.35	duration=15751510287	selected-samples=1
+latency-point	name=loop	arrivals=2	departures=2	difference=94365832590902
+experiment	selected=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/sleep/mod.rs:253	speedup=0.00	duration=30326619254	selected-samples=6682
+latency-point	name=loop	arrivals=5	departures=5	difference=94365832590902
+experiment	selected=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/sleep/mod.rs:253	speedup=0.00	duration=31583079030	selected-samples=2207
+latency-point	name=loop	arrivals=1	departures=2	difference=94365832590901
+runtime	time=130860553309
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crossbeam-deque-0.8.5/src/deque.rs:64	count=2178
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crossbeam-deque-0.8.5/src/deque.rs:407	count=1
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-1.10.0/src/iter/flatten.rs:120	count=10
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-1.10.0/src/iter/from_par_iter.rs:20	count=2
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-1.10.0/src/iter/from_par_iter.rs:21	count=4
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-1.10.0/src/iter/plumbing/mod.rs:325	count=5
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-1.10.0/src/iter/plumbing/mod.rs:396	count=1
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-1.10.0/src/slice/mergesort.rs:0	count=2027
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-1.10.0/src/slice/mergesort.rs:325	count=1
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-1.10.0/src/slice/mergesort.rs:493	count=2337
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-1.10.0/src/slice/mergesort.rs:494	count=1
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-1.10.0/src/slice/mergesort.rs:684	count=3
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-1.10.0/src/slice/mergesort.rs:689	count=1
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/job.rs:0	count=5862
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/job.rs:64	count=179
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/job.rs:90	count=52
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/job.rs:123	count=1
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/job.rs:229	count=12
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/job.rs:230	count=6980
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/join/mod.rs:132	count=13544
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/join/mod.rs:136	count=7366
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/join/mod.rs:142	count=2181
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/join/mod.rs:159	count=18681
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/join/mod.rs:174	count=278
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/latch.rs:200	count=1
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/latch.rs:452	count=1
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/registry.rs:0	count=11
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/registry.rs:526	count=5
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/registry.rs:531	count=2
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/registry.rs:534	count=2
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/registry.rs:544	count=13
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/registry.rs:551	count=1
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/registry.rs:723	count=1
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/registry.rs:725	count=4049
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/registry.rs:744	count=3927
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/registry.rs:751	count=2938
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/registry.rs:752	count=525
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/registry.rs:769	count=3
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/sleep/counters.rs:43	count=10131
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/sleep/counters.rs:215	count=7
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/sleep/mod.rs:0	count=48
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/sleep/mod.rs:253	count=14823
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/sleep/mod.rs:266	count=3
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/sleep/mod.rs:269	count=9
+samples	location=/rust/deps/gimli-0.28.0/src/read/unit.rs:2448	count=1
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/alloc/src/alloc.rs:0	count=2
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/alloc/src/alloc.rs:117	count=16
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/alloc/src/boxed.rs:0	count=1
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/alloc/src/boxed.rs:451	count=2
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/alloc/src/collections/linked_list.rs:200	count=1
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/alloc/src/raw_vec.rs:185	count=1
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/alloc/src/raw_vec.rs:192	count=1
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/alloc/src/raw_vec.rs:247	count=1
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/alloc/src/raw_vec.rs:257	count=1
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/alloc/src/vec/mod.rs:423	count=7
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/alloc/src/vec/mod.rs:1421	count=1
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/alloc/src/vec/mod.rs:2142	count=5576
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/cell.rs:0	count=5430
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/cell.rs:512	count=1
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/cmp.rs:0	count=19
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/fmt/mod.rs:335	count=13
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/intrinsics.rs:2708	count=29732
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/intrinsics.rs:2800	count=729
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/iter/range.rs:0	count=1
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/mem/manually_drop.rs:71	count=1
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/mem/maybe_uninit.rs:494	count=12
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/mem/mod.rs:394	count=2
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/num/mod.rs:455	count=95
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/num/mod.rs:1269	count=11294
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/option.rs:0	count=1
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/option.rs:606	count=1
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/option.rs:931	count=4
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/panic/panic_info.rs:49	count=10277
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/ptr/const_ptr.rs:1777	count=5416
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/ptr/mod.rs:507	count=18
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/ptr/mod.rs:1415	count=1
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/ptr/mod.rs:1658	count=19772
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/ptr/mut_ptr.rs:1045	count=930
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/ptr/non_null.rs:399	count=3308
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/slice/index.rs:0	count=1
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/slice/index.rs:403	count=10
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/slice/index.rs:405	count=6
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/slice/mod.rs:887	count=6117
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/slice/mod.rs:888	count=5068
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/slice/mod.rs:985	count=7
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/slice/sort.rs:0	count=76783
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/slice/sort.rs:221	count=5065
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/slice/sort.rs:233	count=159
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/slice/sort.rs:235	count=9331
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/slice/sort.rs:238	count=14427
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/slice/sort.rs:244	count=5523
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/slice/sort.rs:714	count=1
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/sync/atomic.rs:3273	count=3346
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/sync/atomic.rs:3274	count=1791
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/sync/atomic.rs:3289	count=1
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/sync/atomic.rs:3290	count=102
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/sync/atomic.rs:3372	count=256
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/tuple.rs:220	count=565
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/std/src/io/buffered/bufwriter.rs:406	count=83
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/std/src/io/mod.rs:1669	count=1
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/std/src/io/mod.rs:1678	count=1
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/std/src/io/mod.rs:1683	count=2
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/std/src/panicking.rs:569	count=1
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/std/src/panicking.rs:578	count=2
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/std/src/sys/unix/futex.rs:104	count=150
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/std/src/sys/unix/stack_overflow.rs:114	count=3659
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/std/src/sys_common/once/futex.rs:0	count=2
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/std/src/sys_common/once/futex.rs:107	count=1
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/std/src/thread/local.rs:284	count=4
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/stdarch/crates/std_detect/src/detect/os/x86.rs:0	count=1
+startup	time=1712694791971351167
+experiment	selected=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/registry.rs:956	speedup=0.90	duration=239737172	selected-samples=2712
+latency-point	name=median_n	arrivals=21145510	departures=21145525	difference=4
+latency-point	name=loop	arrivals=0	departures=0	difference=94424642203958
+experiment	selected=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/registry.rs:953	speedup=0.75	duration=518501909	selected-samples=6459
+latency-point	name=median_n	arrivals=41900174	departures=41900190	difference=9
+latency-point	name=loop	arrivals=0	departures=0	difference=94424642203958
+experiment	selected=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/registry.rs:953	speedup=0.10	duration=1815074191	selected-samples=14122
+latency-point	name=median_n	arrivals=80752723	departures=80752731	difference=7
+latency-point	name=loop	arrivals=0	departures=0	difference=94424642203958
+experiment	selected=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/registry.rs:953	speedup=0.00	duration=3881646364	selected-samples=28408
+latency-point	name=median_n	arrivals=160803704	departures=160803712	difference=6
+latency-point	name=loop	arrivals=0	departures=0	difference=94424642203958
+experiment	selected=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/registry.rs:953	speedup=0.00	duration=8000328497	selected-samples=58554
+latency-point	name=median_n	arrivals=322179775	departures=322179794	difference=5
+latency-point	name=loop	arrivals=0	departures=0	difference=94424642203958
+experiment	selected=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/registry.rs:956	speedup=0.15	duration=14811991269	selected-samples=55779
+latency-point	name=median_n	arrivals=370367696	departures=370367701	difference=0
+latency-point	name=loop	arrivals=0	departures=0	difference=94424642203958
+experiment	selected=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/panicking.rs:155	speedup=0.70	duration=30416213551	selected-samples=1
+latency-point	name=median_n	arrivals=1068368548	departures=1068368548	difference=9
+latency-point	name=loop	arrivals=2	departures=2	difference=94424642203958
+experiment	selected=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/registry.rs:953	speedup=0.00	duration=61088278107	selected-samples=366959
+latency-point	name=median_n	arrivals=2208734907	departures=2208734917	difference=6
+latency-point	name=loop	arrivals=2	departures=2	difference=94424642203958
+experiment	selected=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/registry.rs:953	speedup=0.55	duration=96505886198	selected-samples=523661
+latency-point	name=median_n	arrivals=3722084640	departures=3722084645	difference=0
+latency-point	name=loop	arrivals=3	departures=3	difference=94424642203958
+experiment	selected=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/panicking.rs:155	speedup=0.45	duration=251441100285	selected-samples=1
+latency-point	name=median_n	arrivals=2000000000	departures=2000000000	difference=0
+latency-point	name=loop	arrivals=2	departures=3	difference=94424642203957
+runtime	time=520574275525
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crossbeam-deque-0.8.5/src/deque.rs:64	count=260
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crossbeam-deque-0.8.5/src/deque.rs:407	count=220
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-1.10.0/src/iter/from_par_iter.rs:21	count=1
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-1.10.0/src/iter/plumbing/mod.rs:417	count=2
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-1.10.0/src/slice/mergesort.rs:257	count=1
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-1.10.0/src/slice/mergesort.rs:259	count=1
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-1.10.0/src/slice/mergesort.rs:290	count=2
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-1.10.0/src/slice/mergesort.rs:310	count=13
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-1.10.0/src/slice/mergesort.rs:710	count=1
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/job.rs:0	count=1
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/job.rs:90	count=2481
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/job.rs:229	count=1207
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/job.rs:230	count=15804
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/job.rs:232	count=1
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/join/mod.rs:0	count=666
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/join/mod.rs:132	count=10397
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/join/mod.rs:136	count=4163
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/join/mod.rs:145	count=981
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/join/mod.rs:153	count=1
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/join/mod.rs:159	count=103414
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/join/mod.rs:160	count=32791
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/join/mod.rs:173	count=17852
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/join/mod.rs:174	count=1613
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/latch.rs:165	count=1710
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/registry.rs:0	count=9329
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/registry.rs:526	count=3
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/registry.rs:534	count=1
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/registry.rs:544	count=2
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/registry.rs:551	count=2
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/registry.rs:718	count=609
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/registry.rs:723	count=620
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/registry.rs:725	count=3284
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/registry.rs:744	count=1
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/registry.rs:752	count=1
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/registry.rs:769	count=1
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/registry.rs:940	count=8381
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/registry.rs:947	count=2758
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/registry.rs:953	count=1531746
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/registry.rs:956	count=1413750
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/sleep/counters.rs:43	count=15
+samples	location=/home/may/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.12.1/src/sleep/counters.rs:134	count=433
+samples	location=/home/may/rmath-stats/src/main.rs:9	count=1
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/alloc/src/alloc.rs:0	count=1
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/alloc/src/alloc.rs:117	count=5
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/alloc/src/boxed.rs:451	count=4
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/alloc/src/boxed.rs:1243	count=1
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/alloc/src/raw_vec.rs:239	count=1
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/alloc/src/sync.rs:2993	count=2
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/alloc/src/vec/mod.rs:0	count=1
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/alloc/src/vec/mod.rs:1918	count=1
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/alloc/src/vec/mod.rs:1922	count=3
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/alloc/src/vec/mod.rs:2142	count=1947
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/alloc/layout.rs:449	count=1
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/cell.rs:0	count=1918
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/cell.rs:512	count=1118
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/cmp.rs:1507	count=29958
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/intrinsics.rs:2708	count=7168
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/intrinsics.rs:2800	count=4357
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/iter/range.rs:0	count=1
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/iter/range.rs:774	count=61326
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/num/mod.rs:1269	count=398
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/panicking.rs:155	count=9
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/panicking.rs:203	count=4
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/panicking.rs:297	count=1
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/panicking.rs:342	count=6734
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/ptr/mod.rs:1658	count=3818
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/ptr/non_null.rs:399	count=1838
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/slice/index.rs:255	count=9
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/slice/index.rs:405	count=1
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/slice/mod.rs:0	count=3
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/slice/mod.rs:887	count=13602
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/slice/mod.rs:888	count=24999
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/slice/mod.rs:985	count=7
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/slice/mod.rs:1900	count=1
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/slice/sort.rs:0	count=12627
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/slice/sort.rs:221	count=5316
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/slice/sort.rs:244	count=3571
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/slice/sort.rs:249	count=14493
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/slice/sort.rs:282	count=3643
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/slice/sort.rs:714	count=1
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/sync/atomic.rs:3273	count=3081
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/sync/atomic.rs:3274	count=210
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/sync/atomic.rs:3289	count=12
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/sync/atomic.rs:3290	count=3220
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/core/src/tuple.rs:220	count=1
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/std/src/io/buffered/bufwriter.rs:406	count=1406
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/std/src/io/mod.rs:1681	count=1
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/std/src/io/mod.rs:1683	count=1
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/std/src/panicking.rs:0	count=45
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/std/src/panicking.rs:552	count=4
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/std/src/panicking.rs:569	count=1392
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/std/src/panicking.rs:578	count=349
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/std/src/sys/unix/stack_overflow.rs:114	count=3268
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/std/src/sys/unix/stack_overflow.rs:116	count=24
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/std/src/sys_common/once/futex.rs:0	count=3
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/std/src/thread/local.rs:284	count=2350
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/stdarch/crates/std_detect/src/detect/os/x86.rs:99	count=129
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/stdarch/crates/std_detect/src/detect/os/x86.rs:166	count=2
+samples	location=/rustc/ca663b06c5492ac2dde5e53cd11579fa8e4d68bd/library/stdarch/crates/std_detect/src/detect/os/x86.rs:244	count=1
